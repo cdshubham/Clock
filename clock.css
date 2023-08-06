@@ -1,0 +1,47 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif");
+  background-size: cover;
+}
+
+.box {
+  background-image: url("https://i.pinimg.com/originals/c1/e5/5b/c1e55bedf5f1c5a628e1ac97a9eaf126.png");
+  height: 40vw;
+  width: 50vw;
+  background-size: 100%;
+  position: absolute;
+  left: 25%;
+  margin-top: 30px;
+  border-radius: 50%;
+  
+}
+
+#hour {
+  height: 6vw;
+  width: 0.2vw;
+  background-color: green;
+  position: absolute;
+  top: 37%;
+  left: 50.18%;
+}
+
+#minute {
+  height: 8vw;
+  width: 0.2vw;
+  background-color: red;
+  position: absolute;
+  top: 32%;
+  left: 50.18%;
+}
+
+#second {
+  height: 12vw;
+  width: 0.2vw;
+  background-color: purple;
+  position: absolute;
+  top: 22%;
+  left: 50.18%;
+}
+
+.hand {
+  transform-origin: bottom;
+}
